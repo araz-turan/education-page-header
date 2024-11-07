@@ -1,0 +1,84 @@
+nav {
+    display: flex;
+}
+.button-ul .ham {
+    display: inline-block;
+    border: none;
+    background:  #f9fafe;
+    color: #6b55e9;
+    font-size: 1.15rem;
+}
+.button-ul {
+    display: inline-block;
+    position: relative;
+}
+.ul-li {
+    margin: 0;
+    padding: 0;
+    display: none;
+    position: absolute;
+    right: 1rem;
+    top: 0;
+    text-align: center;
+    min-width: 8rem;
+    z-index: 1;
+    background-image: linear-gradient(70deg, rgb(107, 85, 233, 0.5), rgb(14, 29, 102, 0.5));
+    backdrop-filter: blur(1rem);
+    border-radius: 0.25rem;
+}
+.ul-li a {
+    display: block;
+    color: #fff;
+    font-size: 0.85rem;
+}
+.button-ul:hover .ul-li a {
+    padding: 0.25rem 0;
+    margin: 0;
+
+}
+.button-ul:hover .ul-li {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.button-ul:hover .ul-li .active-li {
+    border-radius: 0.25rem 0.25rem 0 0;
+}
+.fotobar img {
+    margin: 5rem 0.5rem;
+    width: 11.25rem;
+    height: 15rem;
+    border-radius: 1rem;
+}
+.first-img {
+    transform: translateY(0rem);
+}
+.second-img {
+    transform: translateY(-3rem);
+}
+.opacity-box {
+    position: relative;
+    max-width: 15rem;
+    height: 4rem;
+    background: linear-gradient(140deg, rgb(14, 29, 102, 0.5),rgb(107, 85, 233, 0.5));
+    top: -28rem;
+    right: 4.25rem;
+    padding: 0.5rem;
+    border-radius: 0.375rem;
+    font-size: 0.65rem;
+    margin: 5rem;
+    text-align: start;
+}
+/* * burada .opacity-box'ın iki fotorafın ortasında sabit durması için onun position'ını relative yaptım ve .fotobar onun parentı olduğu içi'de .fotoba'ın display'ini ınlıne yapıp ve .opacity ve img'ların ortada kalması için'de .fotobar'ın text-align'ını center yaptım. * */
+.opacity-ul li {
+    margin: 0 0.5rem 0 0.5rem;
+}
+.opacity-ul li:first-child {
+    margin-bottom: 0.5rem;
+}
+.textbar .search-place {
+    box-shadow: 0.15rem 0.15rem 0.15rem 0.15rem #e4e3e3;
+    margin-top: 1.5rem;
+    height: 2.25rem;
+    max-width: 20rem;
+    border-radius: 0.5rem;
+}

@@ -1,0 +1,67 @@
+.fotobar {
+    margin: 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.fotobar img {
+    width: 16.5rem;
+    height: 22rem;
+    border-radius: 1rem;
+    margin: 1rem 0;
+
+}
+.first-img {
+    transform: translateY(1rem);
+    position: relative;
+    left: 4rem;
+}
+.second-img {
+    transform: translateY(0.5rem);
+    position: relative;
+    right: 4rem;
+}
+.opacity-box {
+    position: relative;
+    max-width: 15rem;
+    min-height: 4.5rem;
+    background: linear-gradient(140deg, rgb(14, 29, 102, 0.5),rgb(107, 85, 233, 0.5));
+    top: -27rem;
+    display: flex;
+    justify-content: center;
+    right: inherit;
+    left: inherit;
+    padding: 0.75rem;
+    border-radius: 0.375rem;
+    font-size: 0.75rem;
+    margin: 0;
+    text-align: start;
+}
+.opacity-ul li {
+    margin: 0 0.5rem 0 0.5rem;
+}
+.opacity-ul li:first-child {
+    margin-bottom: 0.5rem;
+}
+.textbar .search-place {
+    box-shadow: 0.15rem 0.15rem 0.15rem 0.15rem #e4e3e3;
+    margin-top: 1.5rem;
+    height: 2.25rem;
+    max-width: 20rem;
+    border-radius: 0.5rem;
+}
+.textbar .input-box {
+    border: 1px #fff solid;
+    border-radius: 1px;
+    padding-left: 0.5rem;
+    border-radius: 0.5rem 0 0 0.5rem;
+    width: 20.5rem;
+}
+.textbar .input-box:focus {
+    outline: 1px #6b55e9 solid;
+}
+.textbar .search-button {
+    width: 8.5rem;
+    padding: 0.25rem;
+    border-radius: 0 0.5rem 0.5rem 0;
+}

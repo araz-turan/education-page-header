@@ -1,0 +1,108 @@
+header {
+    margin: 1.125rem 5rem;
+}
+nav {
+    gap: 0.1875rem;
+}
+.logo-text {
+    font-size: 0.9375rem;
+}
+.ul-li a {
+    margin: 0.125rem 0.075rem;
+    padding: 0.125rem 0.575rem;
+    font-size: 0.75rem;
+}
+.ul-li .active-li {
+    padding: 0.125rem 0.575rem;
+    border-radius: 0.125rem;
+}
+.ul-li a:hover {
+    border-radius: 0.125rem;
+    padding: 0.125rem 0.575rem;
+}
+.fototextbar {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.textbar {
+    margin: 11.25rem 0 0 0;
+    padding: 0 0.375rem;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+.bold-textbar {
+    line-height: 2.25rem;
+    margin-bottom: 0.75rem;
+}
+.line-1 {
+    font-size: 1.875rem;
+}
+.line-2 {
+    font-size: 1.875rem;
+}
+.line-3 {
+    font-size: 1.875rem;
+}
+.fotobar {
+    margin: 0;
+    height: auto;
+    display: inline;
+    text-align: center;
+}
+.fotobar img {
+    margin: 5rem 0.5rem;
+    width: 16.5rem;
+    height: 22rem;
+    border-radius: 1rem;
+}
+.first-img {
+    transform: translateY(3.5rem);
+}
+.second-img {
+    transform: translateY(-0.25rem);
+}
+.opacity-box {
+    position: relative;
+    max-width: 15rem;
+    height: 4.5rem;
+    background: linear-gradient(140deg, rgb(14, 29, 102, 0.5),rgb(107, 85, 233, 0.5));
+    top: -32rem;
+    right: 5rem;
+    padding: 0.75rem;
+    border-radius: 0.375rem;
+    font-size: 0.75rem;
+    margin: 5rem;
+    text-align: start;
+}
+/* * burada .opacity-box'ın iki fotorafın ortasında sabit durması için onun position'ını relative yaptım ve .fotobar onun parentı olduğu içi'de .fotoba'ın display'ini ınlıne yapıp ve .opacity ve img'ların ortada kalması için'de .fotobar'ın text-align'ını center yaptım. * */
+.opacity-ul li {
+    margin: 0 0.5rem 0 0.5rem;
+}
+.opacity-ul li:first-child {
+    margin-bottom: 0.5rem;
+}
+.textbar .search-place {
+    box-shadow: 0.15rem 0.15rem 0.15rem 0.15rem #e4e3e3;
+    margin-top: 1.5rem;
+    height: 2.25rem;
+    max-width: 20rem;
+    border-radius: 0.5rem;
+}
+.textbar .input-box {
+    border: 1px #fff solid;
+    border-radius: 1px;
+    padding-left: 0.5rem;
+    border-radius: 0.5rem 0 0 0.5rem;
+    width: 20.5rem;
+}
+.textbar .input-box:focus {
+    outline: 1px #6b55e9 solid;
+}
+.textbar .search-button {
+    width: 8.5rem;
+    padding: 0.25rem;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
